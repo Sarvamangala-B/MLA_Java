@@ -1,0 +1,9 @@
+INDEX VERSION 1.134
+C:\Users\sarvamangala.b\Desktop\MLA\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1114968818.index
+\Servlet123\target\generated-sources\annotations
+C:\Users\sarvamangala.b\Desktop\MLA\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1265801715.index
+\servletCtxnCfg\src\main\java
+C:\Users\sarvamangala.b\Desktop\MLA\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1541585204.index
+\MLA_JSP\src\main\java
+C:\Users\sarvamangala.b\Desktop\MLA\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\785944129.index
+\ServletMVCLnF\target\generated-sources\annotations

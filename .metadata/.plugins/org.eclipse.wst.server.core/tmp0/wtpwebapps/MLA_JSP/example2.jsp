@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+    <%@ page errorPage="example2error.jsp" %>   <!-- here we are redirecting to error.jsp page -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<%
+	
+		int x=100;
+		int y = 0 ;
+		out.println(x/y);
+	%>
+	
+</body>
+</html>

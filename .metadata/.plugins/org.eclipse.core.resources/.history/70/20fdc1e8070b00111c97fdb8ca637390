@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1 align="center">Sign In</h1>
+	<center>
+	<form action="login" method="post">
+	Enter UserName: <input type = "text" name="user"><br><br>
+	Enter Password:<input type = "password" name="pwd"><br><br>
+	
+	<input type= "submit" value="Sign in">
+	<a href="register.html">Don't have a account</a>
+	</form>
+	</center>
+</body>
+</html>
