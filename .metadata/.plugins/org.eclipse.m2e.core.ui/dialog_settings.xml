@@ -25,21 +25,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.test.CRUD_JDBC"/>
-			<item value="com.test.crud_jdbc"/>
-			<item value="com.test.JDBC_CRUD"/>
-			<item value="com.test.JSP_JSTL"/>
-			<item value="com.test.ServletMVCLnF"/>
 		</list>
 		<list key="groupId">
-			<item value="com.test"/>
 		</list>
 		<list key="artifactId">
-			<item value="CRUD_JDBC"/>
-			<item value="crud_jdbc"/>
-			<item value="JDBC_CRUD"/>
-			<item value="JSP_JSTL"/>
-			<item value="ServletMVCLnF"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -55,10 +44,13 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.test"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="HibernetMySQL"/>
+			<item value="JDBC_MySQL"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
