@@ -1,0 +1,33 @@
+
+# ======================
+# Eclipse files
+# ======================
+.metadata/
+.project
+.classpath
+.settings/
+
+# ======================
+# Build / Output folders
+# ======================
+target/
+bin/
+build/
+out/
+
+# ======================
+# Server files (Tomcat)
+# ======================
+Servers/
+
+# ======================
+# Logs & temp files
+# ======================
+*.log
+*.tmp
+
+# ======================
+# OS files
+# ======================
+.DS_Store
+Thumbs.db6
