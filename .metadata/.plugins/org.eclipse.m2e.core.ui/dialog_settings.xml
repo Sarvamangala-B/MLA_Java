@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\sarvamangala.b\Desktop\MLA\HibernetMySQL"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -49,6 +50,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Hibernate2"/>
 			<item value="HibernetMySQL"/>
 			<item value="JDBC_MySQL"/>
 		</list>
