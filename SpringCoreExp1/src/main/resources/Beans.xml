@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd">
+		
+		
+		<bean id="bd1" class="com.test.BookDetails">
+			<property name= "pages" value="650"></property>
+			<property name="publisher" value="RamaMatt"></property>
+			<property name="pyear" value="2023"></property>
+		</bean>
+		
+		<bean id="bd2" class="com.test.BookDetails">
+			<property name= "pages" value="540"></property>
+			<property name="publisher" value="abc"></property>
+			<property name="pyear" value="1999"></property>
+		</bean>
+
+<!-- 	<bean id = "bk" class="com.test.Book" scope="singleton" autowire = "default">           	 -->
+<!-- 	 object  default scope is singleton i.e one object for entire application --> 
+<!--  	    	  property tag is setting the value like setter methods --> 
+<!-- 		<property name="id" value="101"></property>              -->
+<!-- 		<property name="name" value="Java notes"></property> -->
+<!-- 		<property name="author" value="Sarvamangala"></property> -->
+<!-- 		<property name="price" value="2345"></property> -->
+<!-- 		<property name="bd" ref="bdobj"></property>         -->
+<!-- 		 here we are referring to the previous BookDetails object --> 
+<!-- 	</bean>             -->
+	
+	
+	
+		<bean id = "bk" class="com.test.Book" scope="singleton" autowire = "default">           <!-- 	 object  default scope is singleton i.e one object for entire application -->
+	    <!-- 	  property tag is setting the value like setter methods -->
+		<property name="id" value="101"></property>             
+		<property name="name" value="Java notes"></property>
+		<property name="author" value="Sarvamangala"></property>
+		<property name="price" value="2345"></property>
+		<property name="listbd">
+			<list>
+				<ref bean="bd1"></ref>
+				<ref bean="bd2"></ref>
+			</list>
+		
+		</property>        <!--  here we are referring to the previous BookDetails object -->
+	</bean>  
+</beans>

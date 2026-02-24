@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\sarvamangala.b\Desktop\MLA\HibernateMappings\src\main\resources\hibernate.cfg.xml"/>
+			<item value="C:\Users\sarvamangala.b\Desktop\MLA\HibernateMappings"/>
 			<item value="C:\Users\sarvamangala.b\Desktop\MLA\HibernateExp1\src\main\java\com\test\NamedQueryTest.java"/>
 			<item value="C:\Users\sarvamangala.b\Desktop\MLA\HibernetMySQL"/>
 		</list>
@@ -51,6 +53,9 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="HibernateMapping_many_many"/>
+			<item value="HibernateMappingExp2"/>
+			<item value="HibernateMappings"/>
 			<item value="HibernateCollection"/>
 			<item value="StudentHB_Inheritance"/>
 			<item value="HibernateExp1"/>
