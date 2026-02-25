@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\sarvamangala.b\Desktop\MLA\SpringCoreExp1\src\main\java\com\test\BookDemo.java"/>
 			<item value="C:\Users\sarvamangala.b\Desktop\MLA\HibernateMappings\src\main\resources\hibernate.cfg.xml"/>
 			<item value="C:\Users\sarvamangala.b\Desktop\MLA\HibernateMappings"/>
 			<item value="C:\Users\sarvamangala.b\Desktop\MLA\HibernateExp1\src\main\java\com\test\NamedQueryTest.java"/>
@@ -53,6 +54,10 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="BeanLifeCycleMethods"/>
+			<item value="SpringELExp1"/>
+			<item value="SpringCoreExp2"/>
+			<item value="SpringCoreExp1"/>
 			<item value="HibernateMapping_many_many"/>
 			<item value="HibernateMappingExp2"/>
 			<item value="HibernateMappings"/>

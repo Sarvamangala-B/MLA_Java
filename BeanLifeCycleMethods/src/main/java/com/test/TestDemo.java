@@ -8,7 +8,7 @@ public class TestDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		AbstractApplicationContext ctx = new ClassPathXmlApplicationContext("bean.xml");
+		AbstractApplicationContext ctx = new ClassPathXmlApplicationContext("bean .xml");
 		ctx.registerShutdownHook();
 		Triangle t = ctx.getBean("triangle", Triangle.class);
 		t.draw();
