@@ -21,7 +21,7 @@ public class TestDemo {
 		f.setId(2);
 		f.setName("MANGO");
 		f.setPrice(223);
-		f.setQuantity(999);
+		f.setQuantity(y999);
 		
 		dao.saveFruits(f);
 		
