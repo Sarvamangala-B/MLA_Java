@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\sarvamangala.b\Desktop\MLA\SpringJDBCAnnotations\src\main\java\com\test\main\TestDemo.java"/>
 			<item value="C:\Users\sarvamangala.b\Desktop\MLA\SpringJDBExp1\src\main\java\com\test\main\TestDemo.java"/>
 			<item value="C:\Users\sarvamangala.b\Desktop\MLA\SpringAopExp\src\main\java\com\test\main\SpringMain.java"/>
 			<item value="C:\Users\sarvamangala.b\Desktop\MLA\SpringCoreExp1\src\main\java\com\test\BookDemo.java"/>
@@ -32,10 +33,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.test.SpringMVCExp1"/>
+			<item value="com.test.RestFulWebService"/>
 		</list>
 		<list key="groupId">
+			<item value="com.test"/>
 		</list>
 		<list key="artifactId">
+			<item value="SpringMVCExp1"/>
+			<item value="RestFulWebService"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -51,26 +57,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.test"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="SpringJDBCAnnotations"/>
-			<item value="SpringJDBExp1"/>
-			<item value="SpringAopExp"/>
-			<item value="SpringAOPExp1"/>
-			<item value="BeanLifeCycleMethods"/>
-			<item value="SpringELExp1"/>
-			<item value="SpringCoreExp2"/>
-			<item value="SpringCoreExp1"/>
-			<item value="HibernateMapping_many_many"/>
-			<item value="HibernateMappingExp2"/>
-			<item value="HibernateMappings"/>
-			<item value="HibernateCollection"/>
-			<item value="StudentHB_Inheritance"/>
-			<item value="HibernateExp1"/>
-			<item value="Hibernate2"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
