@@ -1,0 +1,6 @@
+#spring.application.name=SpringBootSecurity
+spring:
+  application:
+    name: SpringBootSecurity
+server:
+  port: 1234
