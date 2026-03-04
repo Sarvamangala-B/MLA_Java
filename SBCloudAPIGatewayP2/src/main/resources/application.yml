@@ -1,0 +1,7 @@
+#spring.application.name=SBCloudAPIGatewayP2
+
+spring:
+  application:
+    name: SBCloudAPIGatewayP2
+server:
+  port: 9988
